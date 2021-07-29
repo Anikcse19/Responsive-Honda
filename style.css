@@ -1,0 +1,99 @@
+.my-bg-color{
+    background-color: #FFFFFF;
+}
+
+.header-bg{
+    background-color: #264653;
+}
+
+.my-button{
+    background-color: #E76F51;
+}
+
+.my-text{
+    text-align: justify;
+}
+
+hr{
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+h1{
+    font-weight: 700;
+}
+
+h1 span{
+    color: #E76F51;
+}
+
+.bike-grayscale img{
+    filter: grayscale(100%);
+}
+
+.engine-sec-bg-color{
+    background-color: rgba(218, 212, 212, 0.589);
+}
+
+/* features part style  ================*/
+.cover{
+    width: 100%;
+    height: 55vh;
+    margin-top: 3%;
+    background-image: url(images/bike-cover.jpg);
+    background-position: -20rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+.cover .content h1{
+    color: white;
+    font-weight: bolder;
+    font-family: var(--single-font);
+}
+.cover .content p{
+    color: whitesmoke;
+    font-family: var(--rubik);
+}
+.numbers .rec{
+    background-color: white;
+    width: 272px;
+    height:192px;
+    box-shadow: 2px 5px 50px 0px rgba(255,0,0,0.3);
+    padding-top: 50px;
+    margin: 16px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+.numbers{
+    margin-top: -100px;
+}
+.numbers .rec h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: tomato;
+}
+.numbers .rec p{
+    font-weight: bold;
+    font-family: var(--lobster);
+}
+
+/* features part style  ================*/
+
+/* contact me section  */
+
+#contact-me{
+    background-color: #264653;
+    padding: 2% 10%;
+}
+.form-group label {
+    font-weight: bolder;
+
+}
+/*end contact me section  */
